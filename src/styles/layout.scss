@@ -1,0 +1,54 @@
+
+$base-spacing : 8px;
+
+@mixin ml($n) {
+  margin-left: $n * $base-spacing;
+}
+
+@mixin mr($n) {
+  margin-right: $n * $base-spacing;
+}
+
+@mixin mt($n) {
+  margin-top: $n * $base-spacing;
+}
+
+@mixin mb($n) {
+  margin-bottom: $n * $base-spacing;
+}
+
+.ml-1 {
+  @include ml(1)
+}
+
+.mr-1 {
+  @include mr(1)
+}
+
+.mt-1 {
+  @include mt(1)
+}
+
+.mb-1 {
+  @include mb(1)
+}
+
+.ml-2 {
+  @include ml(2)
+}
+
+.mr-2 {
+  @include mr(2)
+}
+
+.mt-2 {
+  @include mt(2)
+}
+
+.mb-2 {
+  @include mb(2)
+}
+
+
+
+

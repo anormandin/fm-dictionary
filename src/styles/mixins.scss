@@ -1,0 +1,11 @@
+@mixin font-serif() {
+  font-family: Lora, "Times New Roman" , serif;
+}
+
+@mixin font-sans-serif() {
+  font-family: Inter, Arial, sans-serif;
+}
+
+@mixin font-mono() {
+  font-family: 'Inconsolata', monospace;
+}

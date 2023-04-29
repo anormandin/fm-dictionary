@@ -1,0 +1,25 @@
+@import 'styles/main';
+
+.app {
+
+
+  .main-container {
+    max-width: 750px;
+    min-width: 375px;
+    padding-top: 60px;
+    margin: auto;
+  }
+
+}
+
+
+.light {
+  background-color: $color-white;
+  color:$color-black;
+}
+
+
+.dark {
+  background-color: $color-black;
+  color:$color-white;
+}

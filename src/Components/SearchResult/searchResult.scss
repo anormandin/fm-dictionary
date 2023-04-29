@@ -1,0 +1,132 @@
+@import '../../styles/main';
+
+.search-result {
+
+  .title {
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .play-button {
+      width: 75px;
+      height: 75px;
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      background-image: url("src/ressources/images/icon-play.svg");
+
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-image: url("src/ressources/images/icon-play-hover.svg");
+      }
+
+    }
+
+
+  }
+
+  .part-of-speech {
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 40px;
+
+    hr {
+      width: 90%;
+      height: 1px;
+      border: none;
+      border-bottom: solid 1px $color-gray-5;
+    }
+
+  }
+
+
+  .sourceUrl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: solid 1px $color-gray-5;
+    padding-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    span {
+      color: $color-gray-4;
+      margin-right: 8px;
+
+    }
+
+    a {
+      margin-right: 8px;
+      color: $color-gray-2;
+    }
+
+    .open-in-new {
+      background-image: url("src/ressources/images/icon-new-window.svg");
+      width: 14px;
+      height: 14px;
+      color: $color-gray-4;
+    }
+
+  }
+
+  .definition {
+    q {
+      display: block;
+      margin-top: 10px;
+      color: $color-gray-4;
+    }
+
+  }
+
+  .meaning {
+
+    .meanings-section {
+      margin-bottom: 20px;
+    }
+
+
+    ul {
+      li {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        margin-left: 22px;
+
+        &::before {
+          content: "\2022";
+          color: $color-accent;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-right: 1em;
+        }
+      }
+
+
+    }
+  }
+
+}
+
+.dark {
+  .error {
+    .heading-s {
+      color:$color-gray-6;
+      
+    }
+  }
+  .search-result {
+    .sourceUrl {
+      a {
+       color: $color-gray-5;
+      }
+    }
+  }
+}

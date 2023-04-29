@@ -1,0 +1,31 @@
+@import "../../styles/main";
+
+$spacing:20px;
+
+.designSystem {
+  margin: $spacing;
+  max-width: 1280px;
+  
+  
+  .container {
+    padding:$spacing;
+    margin:$spacing;
+    border:solid 2px $color-gray-2;
+    border-radius: 4px;
+  }
+  
+  .colorbox {
+    width:200px;
+    margin:$spacing;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    & > div {
+      height:120px;
+    }
+    & > p {
+      text-align: center;
+    }
+    
+  }
+}
