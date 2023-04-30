@@ -1,5 +1,5 @@
 import React from 'react';
-import imageError from '../../ressources/images/image-error.svg';
+import imageError from '../../../ressources/images/image-error.svg';
 import {DictionaryApiError} from "./DictionaryApiTypes";
 
 function ErrorComponent({apiError}: { apiError?: DictionaryApiError }) {

@@ -20,18 +20,18 @@
     cursor: pointer;
 
     &.light {
-      background-image: url("src/ressources/images/icon-theme-light.svg");
+      background-image: url("/ressources/images/icon-theme-light.svg");
     }
 
     &.dark {
-      background-image: url("src/ressources/images/icon-theme-dark.svg");
+      background-image: url("/ressources/images/icon-theme-dark.svg");
     }
 
   }
   
 
   .app-icon {
-    background-image: url("src/ressources/images/logo.svg");
+    background-image: url("/ressources/images/logo.svg");
     width: 34px;
     height: 38px;
   }
@@ -49,7 +49,7 @@
     width:200px;
     
     .arrow-up {
-      background-image: url("src/ressources/images/icon-arrow-down.svg");
+      background-image: url("/ressources/images/icon-arrow-down.svg");
       transform:rotateZ(180deg);
       height:8px;
       width:15px;
@@ -59,7 +59,7 @@
     }
     
     .arrow-down {
-      background-image: url("src/ressources/images/icon-arrow-down.svg");
+      background-image: url("/ressources/images/icon-arrow-down.svg");
       height:8px;
       width:15px;
       transition: transform 0.1s ease-in-out;
