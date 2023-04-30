@@ -12,7 +12,7 @@ export type Theme = {
 
 const defaultThemeContext: Theme = {
     lightMode: 'light',
-    font: 'serif',
+    font: 'sans-serif',
     toggleLightMode: () => {
     },
     setFont: () => {

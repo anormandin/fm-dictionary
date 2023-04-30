@@ -41,7 +41,7 @@ function SearchField() {
                     onChange={handleChange}
                     value={search || ""}
                 />
-                <button type='submit' className='icon-search'/>
+                <button type='submit' className='icon-search' aria-label='search'/>
             </div>
             {error && <p className='text-danger heading-s mt-1'>{error}</p>}
         </form>

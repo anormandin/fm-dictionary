@@ -7,13 +7,13 @@ import ThemeSwitch from "./ThemeSwitch";
 
 function HeaderBar() {
     return (
-        <div className='header-bar'>
+        <header className='header-bar'>
             <AppIcon />
             <div className='right-side'>
                 <FontPicker />
                 <ThemeSwitch />
             </div>
-        </div>
+        </header>
     );
 }
 
