@@ -12,7 +12,7 @@ export type Theme = {
 
 const defaultThemeContext: Theme = {
     lightMode: 'light',
-    font: 'sans-serif',
+    font: 'serif',
     toggleLightMode: () => {
     },
     setFont: () => {
@@ -27,7 +27,7 @@ export function useThemeContext() {
 
 export function ThemeProvider({children}: { children: ReactNode }) {
     const [lightMode, setLightMode] = useState<LightMode>('light')
-    const [font, setFont] = useState<Font>('sans-serif');
+    const [font, setFont] = useState<Font>('serif');
 
     // Effect to toggle dark mode on the body when changed
     useEffect(() => {
