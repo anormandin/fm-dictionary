@@ -1,5 +1,5 @@
-
-$base-spacing : 8px;
+$base-spacing: 8px;
+$small-device: 500px;
 
 @mixin ml($n) {
   margin-left: $n * $base-spacing;
